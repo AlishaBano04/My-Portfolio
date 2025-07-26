@@ -59,8 +59,8 @@ const Contact = () => {
         <motion.p
           variants={fadeUp}
           className="text-light-muted-text dark:text-dark-muted-text mt-2 text-base sm:text-lg">
-          Whether you want to work together or just say hi — my inbox is always
-          open.
+          I'm always open to new opportunities and connections — feel free to
+          get in touch.
         </motion.p>
 
         <motion.form

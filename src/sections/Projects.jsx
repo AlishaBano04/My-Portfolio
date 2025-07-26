@@ -7,7 +7,7 @@ const projects = [
     title: "Wanderlust",
     description:
       "A full-stack travel platform where users can list, book, and review properties. Inspired by Airbnb, with authentication, reviews, and search.",
-    tech: ["Node.js", "Express", "MongoDB", "EJS", "Passport.js"],
+    tech: ["Node.js", "Express", "MongoDB", "EJS", "Bootstrap"],
     github: "https://github.com/AlishaBano04/Wanderlust",
     link: "https://wanderlust-j666.onrender.com/listings",
   },

@@ -54,7 +54,8 @@ const Hero = () => {
               strings: [
                 "Full Stack Developer",
                 "AI Enthusiast",
-                "Lifelong Learner",
+                "Deep diving into DSA with Java",
+                "Lifelong Learner :)",
               ],
               autoStart: true,
               loop: true,
