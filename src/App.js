@@ -11,7 +11,7 @@ import Achievements from "./components/Achievements.jsx";
 
 function App() {
   return (
-    <div className="bg-light text-black dark:bg-black dark:text-white min-h-screen">
+    <div className="bg-light text-black dark:bg-black dark:text-white min-h-screen w-full overflow-x-hidden">
       <Navbar />
       <Hero />
       <About />

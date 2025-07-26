@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// Animation variants
 const container = {
   hidden: {},
   show: {
@@ -62,7 +61,7 @@ const Beyond = () => {
   return (
     <section
       id="beyond"
-      className="py-20 px-4 md:px-8 transition-colors duration-300 bg-[#fefae0] dark:bg-black text-center">
+      className="w-full overflow-x-hidden py-20 px-4 md:px-8 transition-colors duration-300 bg-[#fefae0] dark:bg-black text-center">
       <motion.div
         className="max-w-4xl mx-auto"
         variants={container}
@@ -93,7 +92,7 @@ const Beyond = () => {
               </span>
 
               {/* Tooltip */}
-              <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 bg-white dark:bg-gray-900 text-black dark:text-gray-100 text-xs sm:text-sm px-4 py-3 rounded-xl border border-[#9fc900] shadow-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 pointer-events-none">
+              <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 max-w-xs w-[90vw] bg-white dark:bg-gray-900 text-black dark:text-gray-100 text-xs sm:text-sm px-4 py-3 rounded-xl border border-[#9fc900] shadow-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 pointer-events-none">
                 <h4 className="font-semibold mb-1 text-[#A8C23B] dark:text-[#9fc900]">
                   {item.name}
                 </h4>
