@@ -32,7 +32,7 @@ const projects = [
     description:
       "This portfolio is a reflection of my journey — combining creativity, clean code, and seamless user experience.",
     tech: ["React", "Tailwind CSS", "React icons", "Framer Motion"],
-    github: "https://github.com/alisha-dev/chathub",
+    github: "https://github.com/AlishaBano04/My-Portfolio",
     link: "#home",
   },
 ];
