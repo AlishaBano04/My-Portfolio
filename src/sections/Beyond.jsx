@@ -91,12 +91,12 @@ const Beyond = () => {
                 {item.name} {item.icon}
               </span>
 
-              {/* Tooltip */}
-              <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 max-w-xs w-[90vw] bg-white dark:bg-gray-900 text-black dark:text-gray-100 text-xs sm:text-sm px-4 py-3 rounded-xl border border-[#9fc900] shadow-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 pointer-events-none">
-                <h4 className="font-semibold mb-1 text-[#A8C23B] dark:text-[#9fc900]">
+              {/* Tooltip - size reduced */}
+              <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-48 sm:w-56 bg-white dark:bg-gray-900 text-black dark:text-gray-100 text-xs px-3 py-2 rounded-lg border border-[#9fc900] shadow-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 pointer-events-none">
+                <h4 className="font-semibold mb-1 text-[#A8C23B] dark:text-[#9fc900] text-sm">
                   {item.name}
                 </h4>
-                <ul className="list-disc list-inside text-left space-y-1">
+                <ul className="list-disc list-inside text-left space-y-0.5">
                   {item.preferences.map((pref, i) => (
                     <li key={i}>{pref}</li>
                   ))}

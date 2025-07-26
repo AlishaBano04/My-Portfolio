@@ -80,7 +80,7 @@ const Hero = () => {
           className="mt-8 flex gap-4 flex-wrap justify-center">
           <a
             href="#projects"
-            className="px-6 py-3 bg-primary text-black rounded-full font-semibold hover:opacity-90 transition duration-300">
+            className="px-6 py-3 bg-[#A8C23B] dark:bg-[#9fc900] text-black rounded-full font-semibold transition duration-300 hover:brightness-110 hover:shadow-[0_0_12px_#A8C23B] dark:hover:shadow-[0_0_12px_#9fc900] hover:scale-105">
             My Recent Work
           </a>
           <a
