@@ -51,7 +51,7 @@ const interests = [
     preferences: ["Gratitude logs", "Daily reflections", "Goal setting"],
   },
   {
-    name: "Movie Watching",
+    name: "Watching Movie",
     icon: "🎬",
     preferences: ["Up", "Wake Up Sid", "The Social Network"],
   },
